@@ -1,0 +1,15 @@
+{
+  "name": "middleware-cloud",
+  "version": "1.0.0",
+  "description": "middleware app for fetching mqtt messages in mongodb cluster",
+  "main": "mqx2mdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chris.k",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^3.5.8",
+    "mqtt": "^4.1.0"
+  }
+}
