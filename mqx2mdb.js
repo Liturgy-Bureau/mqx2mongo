@@ -7,7 +7,7 @@ const mqttClient = mqtt.connect('mqtt://127.0.0.1'/*'mqtts://mqtt.litcons.eu'*/,
  {username: 'litmqtt', password:'litmqtt1980'}
 );
 
-const mongodbUrl = 'mongodb+srv://xxxxxx:xxxxxx@liturgy0-opnag.mongodb.net?retryWrites=true&w=majority';
+const mongodbUrl = 'mongodb+srv://xxxxxx:xxxxxx@xxxxxx-xxxxxx.mongodb.net?retryWrites=true&w=majority';
 
 const odb = 'allObjects';
 
