@@ -4,7 +4,7 @@ const MongoClient = require('mongodb');
 console.log('middleware running...'); // test
 
 const mqttClient = mqtt.connect('mqtt://127.0.0.1'/*'mqtts://mqtt.litcons.eu'*/,
- {username: 'litmqtt', password:'litmqtt1980'}
+ {username: 'xxxxxx', password:'xxxxxx'}
 );
 
 const mongodbUrl = 'mongodb+srv://xxxxxx:xxxxxx@xxxxxx-xxxxxx.mongodb.net?retryWrites=true&w=majority';
