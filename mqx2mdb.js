@@ -1,13 +1,14 @@
+require('dotenv').config();
 const mqtt = require('mqtt');
 const MongoClient = require('mongodb');
 
 console.log('middleware running...'); // test
 
-const mqttClient = mqtt.connect('mqtt://127.0.0.1'/*'mqtts://mqtt.litcons.eu'*/,
- {username: 'xxxxxx', password:'xxxxxx'}
+const mqttClient = mqtt.connect(process.env.MQTT_BROKER_URL,
+ {username: process.env.MQTT_USERNAME, password: process.env.MQTT_PASSWORD}
 );
 
-const mongodbUrl = 'mongodb+srv://xxxxxx:xxxxxx@xxxxxx-xxxxxx.mongodb.net?retryWrites=true&w=majority';
+const mongodbUrl = process.env.MONGODB_URL;
 
 const odb = 'allObjects';
 
