@@ -11,5 +11,8 @@
   "devDependencies": {
     "mongodb": "^3.5.8",
     "mqtt": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
   }
 }
